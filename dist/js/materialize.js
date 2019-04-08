@@ -1,5 +1,5 @@
 /*!
- * Materialize v0.98.2 (http://materializecss.com)
+ * Materialize vundefined (http://materializecss.com)
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
@@ -3574,7 +3574,7 @@ if (jQuery) {
             $('input.select-dropdown').trigger('close');
           }
           if (!options.is(':visible')) {
-            $(this).trigger('open', ['focus']);
+            // $(this).trigger('open', ['focus']);
             var label = $(this).val();
             if (multiple && label.indexOf(',') >= 0) {
               label = label.split(',')[0];
@@ -5240,7 +5240,7 @@ function PickerConstructor( ELEMENT, NAME, COMPONENT, OPTIONS ) {
 
                             // If the target was the holder that covers the screen,
                             // keep the element focused to maintain tabindex.
-                            P.close( target === P.$root.children()[0] )
+                            // P.close( target === P.$root.children()[0] )
                         }
 
                     }).on( 'keydown.' + STATE.id, function( event ) {
